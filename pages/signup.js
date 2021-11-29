@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar"
 import {useForm} from 'react-hook-form'
-import {yupResolver} from '@hookform/resolvers/yup'
+import { yupResolver } from '@hookform/resolvers/yup/dist/yup.umd';
 import * as yup from 'yup'
 import {useState} from 'react'
 import axios from "axios"
